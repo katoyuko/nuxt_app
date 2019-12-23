@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid>
+  <b-container class="create_input">
     <b-row class="my-1">
       <b-col sm="2" offset="2">
         <Label :label="template_label"></Label>
@@ -11,9 +11,7 @@
     <div>
       <b-tabs content-class="mt-3">
         <b-tab title="入力">
-          <p>
-            <InputTab />
-          </p>
+          <InputTab />
         </b-tab>
         <b-tab title="確認">
           <p>確認画面</p>

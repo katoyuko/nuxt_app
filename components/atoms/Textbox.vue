@@ -1,3 +1,3 @@
 <template>
-  <b-form-input></b-form-input>
+  <b-form-input placeholder="ラベルを入力"></b-form-input>
 </template>
